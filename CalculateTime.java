@@ -32,6 +32,7 @@ public class CalculateTime {
 		String diffMonths = " months,";
 		int days = duration.getDays();
 		String diffDays = " days.";
+		//if statements ensures that the singular for years, months, and days are used when necessary
 		if (years == 1) {
 			diffYears = " year,";
 		}
